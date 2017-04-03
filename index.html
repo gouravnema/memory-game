@@ -1,0 +1,295 @@
+<html>
+<head>
+  <title>Memory Game</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <script src="./js/jquery.js" ></script>
+  <script src="./js/script.js" ></script>
+</head>
+<body>
+
+<div class="scores text-format">
+    <div>
+      Missed attempts <span class="total-attempts">0</span>
+    </div>
+    <div>
+      Time Taken <span class="timer">0</span>
+    </div>
+    <div>
+      Avg Round Trip Per Flash <span class="avg-turn-around">0</span> Secs.
+    </div>
+
+</div>
+
+<div class="board">
+        <div class="text-format">
+          Images remaining <span class="images-remaining">0</span>
+        </div>
+        <div class="card-row">
+              <div class="card-holder">
+                <div id="c-0" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                    <div class="front">
+                      <!-- front content -->
+                      front
+                    </div>
+                    <div class="back">
+                      <!-- back content -->
+                      back
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div  class="card-holder">
+                <div id="c-2" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                    <div class="front">
+                      <!-- front content -->
+                      front
+                    </div>
+                    <div class="back">
+                      <!-- back content -->
+                      back
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="card-holder">
+                <div id="c-3" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                    <div class="front">
+                      <!-- front content -->
+                      front
+                    </div>
+                    <div class="back">
+                      <!-- back content -->
+                      back
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="card-holder">
+                <div  id="c-4" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+                  <div class="flipper">
+                    <div class="front">
+                      <!-- front content -->
+                      front
+                    </div>
+                    <div class="back">
+                      <!-- back content -->
+                      back
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </div>
+
+
+      <div class="card-row">
+            <div class="card-holder">
+              <div  id="c-5" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="front">
+                    <!-- front content -->
+                    front
+                  </div>
+                  <div class="back">
+                    <!-- back content -->
+                    back
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card-holder">
+              <div  id="c-6" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="front">
+                    <!-- front content -->
+                    front
+                  </div>
+                  <div class="back">
+                    <!-- back content -->
+                    back
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="card-holder">
+              <div id="c-7" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="front">
+                    <!-- front content -->
+                    front
+                  </div>
+                  <div class="back">
+                    <!-- back content -->
+                    back
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card-holder">
+              <div id="c-8" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="front">
+                    <!-- front content -->
+                    front
+                  </div>
+                  <div class="back">
+                    <!-- back content -->
+                    back
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+
+
+    <div class="card-row">
+          <div class="card-holder">
+            <div  id="c-9" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front">
+                  <!-- front content -->
+                  front
+                </div>
+                <div class="back">
+                  <!-- back content -->
+                  back
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card-holder">
+            <div id="c-10" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front">
+                  <!-- front content -->
+                  front
+                </div>
+                <div class="back">
+                  <!-- back content -->
+                  back
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="card-holder">
+            <div id="c-11" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front">
+                  <!-- front content -->
+                  front
+                </div>
+                <div class="back">
+                  <!-- back content -->
+                  back
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card-holder">
+            <div  id="c-12" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                <div class="front">
+                  <!-- front content -->
+                  front
+                </div>
+                <div class="back">
+                  <!-- back content -->
+                  back
+                </div>
+              </div>
+            </div>
+          </div>
+  </div>
+
+  <div class="card-row">
+        <div class="card-holder">
+          <div  id="c-13" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <!-- front content -->
+                front
+              </div>
+              <div class="back">
+                <!-- back content -->
+                back
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card-holder">
+          <div  id="c-14" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <!-- front content -->
+                front
+              </div>
+              <div class="back">
+                <!-- back content -->
+                back
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="card-holder">
+          <div  id="c-15" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <!-- front content -->
+                front
+              </div>
+              <div class="back">
+                <!-- back content -->
+                back
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card-holder">
+          <div  id="c-1" class="flip-container bgb" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+              <div class="front">
+                <!-- front content -->
+                front
+              </div>
+              <div class="back">
+                <!-- back content -->
+                back
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+
+</body>
+</html>
